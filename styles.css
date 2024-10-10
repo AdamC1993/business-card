@@ -1,0 +1,42 @@
+body {
+margin: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+animation-duration: 2s;
+animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 120% 1;}
+  to {
+    translate: 0 0;
+    scale: 100% 1;}
+}
+
+.card {
+    width: 400px;
+    margin:  auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #212529;
+    box-shadow: 8px 8px 5px rgb(0 0 0 / 70%);
+    color: #ffffff;
+    border-bottom: 8px ridge #fca311;
+    border-right: 8px outset #fca311;
+    border-radius: 16px;
+    text-shadow: 0px 0px 3px #fca311;
+}
+.avatar{
+    width: 190px;
+    border-right: 4px ridge #fca311;
+    border-bottom: 6px ridge #fca311;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
